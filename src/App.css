@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.canvas {
+  cursor: url('./images/cursor.svg') 5 5, pointer;
+}
+
+.controll-box {
+  display: flex;
+  width: 1024px;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.picker {
+  border-radius: 50%;
+  width: 30px;
+  cursor: pointer;
+  background-color: #33333357;
+  padding: 5px;
+}
+
+.drop-active {
+  width: 28px;
+  box-shadow: 1px 1px 7px 2px rgba(0,0,0,0.75);
+}
